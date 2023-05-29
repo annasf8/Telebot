@@ -39,3 +39,4 @@ class Convertor:
         new_price = round(s_price.get('result'), 3)
         message = f"Цена {amount} {base} в {quote} : {new_price}"
         return message
+    print ("Hello")
